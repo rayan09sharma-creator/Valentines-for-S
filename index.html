@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For GAMES 💖</title>
+
+    <!-- Connecting CSS -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- PASSWORD SCREEN -->
+    <div id="lockScreen">
+        <h1>🔒Locked</h1>
+        <p>This surprise is protected</p>
+
+        <input type="password" id="passwordInput" placeholder="Enter password">
+        <br><br>
+
+        <button onclick="checkPassword()">Unlock</button>
+        <p id="error"></p>
+    </div>
+
+    <!-- MAIN CONTENT (Hidden at start) -->
+    <div id="content">
+        <h1>Happy Valentines Day 💖</h1>
+        <h2>For GAMES 🌸</h2>
+
+        <img src="image.jpeg" class="photo" onclick="showSecret()">
+
+        <p id= "typingText"></p>
+        <p id = "secret" >🌸 You mean more than you know 🌸</p>
+
+        <p>You unlocked my heart ❤️</p>
+
+        <audio id="bgMusic" loop> 
+            <source src="music.mp3" type="audio">
+        </audio>
+    </div>
+
+    <!-- Connecting JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
